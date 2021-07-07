@@ -58,7 +58,7 @@ $('#search-input').on('keyup', function (e) {
 $('#movie-list').on('click', '.see-detail', function () {
     $.ajax({
         dataType: 'json',
-        url: 'http://omdbapi.com',
+        url: 'https://omdbapi.com',
         type: 'get',
         data: {
             'apikey' : 'f86bd877',
