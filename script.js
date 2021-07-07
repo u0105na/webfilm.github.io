@@ -4,7 +4,7 @@ function searchMovie () {
     
 	$.ajax({
 		dataType: 'json',
-		url: 'http://omdbapi.com',
+		url: 'https://omdbapi.com',
 		type: 'get',
 		data: {
 			'apikey' : 'f86bd877',
